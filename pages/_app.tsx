@@ -70,7 +70,7 @@ export default function App(props) {
       {router.pathname === "/" || !router.pathname ? (
         <Meta
           title={"Transform"}
-          url={`https://transform.tools${router.pathname}`}
+          url={`https://tools.thelinuxterminal.com${router.pathname}`}
           description={
             "A polyglot web converter that's going to save you a lot of time."
           }
@@ -78,7 +78,7 @@ export default function App(props) {
       ) : (
         <Meta
           title={activeRoute?.searchTerm}
-          url={`https://transform.tools${router.pathname}`}
+          url={`https://tools.thelinuxterminal.com${router.pathname}`}
           description={activeRoute?.desc}
         />
       )}
@@ -110,24 +110,13 @@ export default function App(props) {
               display: "inline-block",
               height: 20
             }}
-            href="https://github.com/ritz078/transform"
+            href="/aboutus"
           >
-            <img
-              src="https://img.shields.io/github/stars/ritz078/transform?style=social"
-              alt=""
-            />
+            About Us
           </a>
 
-          <a href="https://github.com/ritz078/transform" target="_blank">
-            <Button
-              appearance="minimal"
-              height={40}
-              css={{
-                color: "#fff !important"
-              }}
-            >
-              GitHub
-            </Button>
+          <a href="/contactus" target="_blank">
+            Contact Us
           </a>
         </Pane>
       </Pane>
