@@ -108,7 +108,8 @@ export const categorizedRoutes = [
         label: "to Go Struct",
         path: "/json-to-go",
         packageName: "json-to-go",
-        packageUrl: "https://github.com/mholt/json-to-go"
+        packageUrl: "https://github.com/mholt/json-to-go",
+        desc: "JSON to Go Struct Converter Online - Convert JSON format to Go Struct Online "
       },
       {
         label: "to Go Bson",
@@ -128,13 +129,15 @@ export const categorizedRoutes = [
         label: "to Kotlin",
         path: "/json-to-kotlin",
         packageUrl: "https://www.npmjs.com/package/json_typegen_wasm",
-        packageName: "json_typegen_wasm"
+        packageName: "json_typegen_wasm",
+        desc: "JSON to Kotlin Converter Online - Convert JSON to Kotlin Pojo "
       },
       {
         label: "to Java",
         path: "/json-to-java",
         packageUrl: "https://www.npmjs.com/package/json_typegen_wasm",
-        packageName: "json_typegen_wasm"
+        packageName: "json_typegen_wasm",
+        desc: "JSON to Java Converter Online - Convert JSON to Java POJO "
       },
       {
         label: "to JSON Schema",
