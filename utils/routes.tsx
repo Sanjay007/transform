@@ -11,13 +11,14 @@ export const categorizedRoutes = [
         path: "/",
         packageName: "@svgr/core",
         packageUrl: "https://github.com/smooth-code/svgr",
-        title: "Transform | A polyglot web converter."
+        title: "Linux Tools - Json Converters  | Json to Svg Converters"
       },
       {
         label: "to React Native",
         path: "/svg-to-react-native",
         packageName: "@svgr/core",
-        packageUrl: "https://github.com/smooth-code/svgr"
+        packageUrl: "https://github.com/smooth-code/svgr",
+        desc:"How to convert json to react native . Json to react native converters."
       }
     ]
   },
@@ -26,13 +27,15 @@ export const categorizedRoutes = [
     content: [
       {
         label: "to JSX",
-        path: "/html-to-jsx"
+        path: "/html-to-jsx",
+        desc: "How to Convert to html to jsx . Html to JSX Converter online ."
       },
       {
         label: "to Pug",
         path: "/html-to-pug",
         packageName: "html2pug",
-        packageUrl: "https://github.com/izolate/html2pug"
+        packageUrl: "https://github.com/izolate/html2pug",
+        desc: "Json to Pug Converter online . An online tool to  Convert any JSON to Pug online "
       }
     ]
   },
@@ -42,7 +45,7 @@ export const categorizedRoutes = [
       {
         label: "to React PropTypes",
         path: "/json-to-proptypes",
-        title: "Transform | All important transforms at one place."
+        title: "Json Converters | All important JSON tools at one place."
       },
       {
         label: "to Flow",
@@ -52,14 +55,14 @@ export const categorizedRoutes = [
         label: "to GraphQL",
         path: "/json-to-graphql",
         packageName: "@walmartlabs/json-to-simple-graphql-schema",
-        packageUrl:
-          "https://github.com/walmartlabs/json-to-simple-graphql-schema"
+        packageUrl: "https://github.com/walmartlabs/json-to-simple-graphql-schema"
       },
       {
         label: "to TypeScript",
         path: "/json-to-typescript",
         packageUrl: "https://www.npmjs.com/package/json_typegen_wasm",
-        packageName: "json_typegen_wasm"
+        packageName: "json_typegen_wasm",
+        desc: "How to convert json to typescript online . JSON to Typescript converter online"
       },
       {
         label: "to MobX-State-Tree Model",
@@ -75,18 +78,20 @@ export const categorizedRoutes = [
         label: "to io-ts",
         path: "/json-to-io-ts",
         packageName: "transform-json-types",
-        packageUrl: "https://github.com/transform-it/transform-json-types"
+        packageUrl: "https://github.com/transform-it/transform-json-types",
+        desc: "How to convert JSON to IO in Typescript Online . JSON to io typescript converter"
       },
       {
         label: "to Rust Serde",
         path: "/json-to-rust-serde",
-        desc: "An online REPL for converting JSON to Rust Serde Structs."
+        desc: "An online REPL for converting JSON to Rust Serde Structs. We can convert json to Rust online"
       },
       {
         label: "to Mongoose Schema",
         path: "/json-to-mongoose",
         packageName: "generate-schema",
-        packageUrl: "https://github.com/nijikokun/generate-schema"
+        packageUrl: "https://github.com/nijikokun/generate-schema",
+        desc:"An online tool to convert json to mongoose schema . "
       },
       {
         label: "to Big Query Schema",
@@ -109,7 +114,7 @@ export const categorizedRoutes = [
         path: "/json-to-go",
         packageName: "json-to-go",
         packageUrl: "https://github.com/mholt/json-to-go",
-        desc: "JSON to Go Struct Converter Online - Convert JSON format to Go Struct Online "
+        desc: "How to convert json to go struct online . JSON to Go Struct Converter Online - Convert JSON format to Go Struct Online "
       },
       {
         label: "to Go Bson",
