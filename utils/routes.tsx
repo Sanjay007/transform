@@ -155,7 +155,8 @@ export const categorizedRoutes = [
         label: "to Zod Schema",
         path: "/json-to-zod",
         packageUrl: "https://www.npmjs.com/package/json-to-zod",
-        packageName: "json-to-zod"
+        packageName: "json-to-zod",
+        desc: "JSON to ZOD Converter online . Convert to Zod online from json files."
       }
     ]
   },
